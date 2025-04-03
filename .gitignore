@@ -11,6 +11,8 @@ ApplicationParameters/
 # dependencies
 node_modules/
 build/
+dist/
+.DS_Store
 /node_modules
 /.pnp
 .pnp.js
