@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StartupServices xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="UserManagementService_InstanceCount" Value="1" />
+    <Parameter Name="DataUpdates_InstanceCount" Value="1" />
+    <Parameter Name="RegionaluserService_PartitionCount" Value="1" />
+    <Parameter Name="RegionaluserService_MinReplicaSetSize" Value="1" />
+    <Parameter Name="RegionaluserService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="RealTimeBroadcast_InstanceCount" Value="1" />
+    <Parameter Name="Communication_InstanceCount" Value="1" />
+    <Parameter Name="UserActorService_PartitionCount" Value="1" />
+    <Parameter Name="UserActorService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="UserActorService_MinReplicaSetSize" Value="1" />
+  </Parameters>
+</StartupServices>
